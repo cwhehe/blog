@@ -1,4 +1,4 @@
-name: GitHub Pages Astro CI
+name: Github Pages Astro CI
 
 on:
   # 每次推送到 `main` 分支时触发这个“工作流程”
@@ -7,7 +7,7 @@ on:
     branches: [ main ]
   # 允许你在 GitHub 上的 Actions 标签中手动触发此“工作流程”
   workflow_dispatch:
-  
+
 # 允许 job 克隆 repo 并创建一个 page deployment
 permissions:
   contents: read
